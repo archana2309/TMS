@@ -18,7 +18,9 @@
         <script src="js/myscript.js"></script>
 		<!-- <link rel="stylesheet" type="text/css" href="css/customstyle.css"> -->
 
-
+<script>
+	alert('archu');
+	<script>
 	</head>
 	<form class="form-inline"id="registrationform" name="registrationform"action="" method="post" enctype="multipart/form-data" role="form">
 		<body class="body">
