@@ -1,0 +1,266 @@
+/*
+Created By:Vaibhav
+Date:8/2/2016
+Desc:Show all Css Class
+*/
+
+/*----------File Upload-------->*/
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px; }
+
+.file-upload input.file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0); }
+
+
+
+
+/**-----For Date-----*/
+.commen_textbox
+{
+    width: 214px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 2px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+    margin-left:4.6%;
+}
+
+input[type='text'],input[type='tel'],input[type='email'],input[type='url']
+{
+    width: 200px;
+    height: 9px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+    margin-left:0.6%;
+
+}
+input[type='text']:hover,input[type='tel']:hover,input[type='email']:hover,input[type='url']:hover,.commen_textbox:hover
+{
+    width: 200px;
+    height: 15px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+}
+
+/***-------For body----****/
+.body
+{
+	background-color:rgba(220, 220, 220, 0.29);
+}
+#root_div
+{
+	
+}
+/*--------For All TextArea-----*/
+textarea
+{
+    width: 202px;
+    height: 70px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+    margin-left: 8%;
+}
+textarea:hover
+{
+    width: 202px;
+    height: 80px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+}
+/*--------For All Select-----*/
+#interestin>select
+{
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 8px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+    margin-left: 8%;
+    width: 220px;
+    opacity: 0.75;
+	
+}
+
+
+.submit
+{
+
+
+}
+/*For All Lable*/
+label
+{
+    font-weight: normal;
+    font-family: "Helvetica Neue";
+    opacity: 0.75;
+    -webkit-transition: opacity 0.15s linear;
+    text-align:justify;
+
+
+}
+small
+{
+    font-size:9px;
+    font-family:'Lucida Grande', Tahoma, Verdana, Arial, Sans-serif;
+    opacity: 0.75;
+    -webkit-transition: opacity 0.15s linear;
+}
+
+.lblinterestin
+{
+    position:absolute;
+}
+.lblemail
+{
+    margin-right: 1.8%;
+}
+.lblorgname
+{
+    margin-right: 0.3%;
+}
+.lblnotes
+{
+    position: absolute;
+}
+.lblurl
+{
+    margin-right: 1.7%;
+}
+#lblupload
+{
+margin-right:5.3%;
+}
+#txtoffno
+{
+margin-left:0%!important;
+}
+/*-----Table Style------*/
+table{
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table tr {
+	background-color:white;
+}
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+#join_date::-webkit-inner-spin-button
+{
+    display: none;
+}
+/************************Reports CSS *******************/
+h3.h2
+{
+    font: 20px/1.4 Georgia, Serif;
+}
+#rptinterestin>select
+{
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 5px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+    width: 220px;
+    opacity: 0.75;
+}
+
+.commen_dt
+{
+    width: 214px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    padding: 2px;
+    font-weight: 200;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px #CCC;
+
+}
+#main_report_div
+{
+    background-color:white;
+    padding-left:5%;
+    box-shadow: 1px 1px 5px #CCC;
+    padding-bottom:1%;
+}
+
+#rptinterestin
+{
+    float: left;
+    margin-right:1%;
+
+}
+#startdate
+{
+    float: left;
+    margin-right:1%;
+}
+#enddate
+{
+    float: left;
+}
+#btn_save
+{
+   clear:both;
+}
+#btn_prt_show
+{
+    font-family:'Lucida Grande', Tahoma, Verdana, Arial, Sans-serif;
+    box-shadow: 1px 1px 5px #CCC;
+    padding: 5px;
+
+}
+
+
+

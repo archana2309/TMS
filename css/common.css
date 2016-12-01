@@ -1,0 +1,138 @@
+
+
+
+
+
+
+/*set three group space*/
+@media screen and (min-width: 768px)
+{
+.div_space
+{
+    margin-top: 15px;
+}
+
+/*Mobile No*/
+.mob_no
+{
+    margin-left:4px;
+}
+
+/*For Org name*/
+.orgname
+{
+    margin-left: 6px;
+    margin-right: 5px;
+}
+
+.date_set
+{
+    margin-left:43px;
+    width:61%!important;
+   /* width:38%!important;*/
+}
+#regi_date
+{
+    width: 31% !important;
+}
+.add
+{
+    margin-left:17px;
+}
+.urlname
+{
+    margin-left:15px;
+}
+.email_id
+{
+    margin-left:18px;;
+}
+.interest_in
+{
+    width:67%!important;
+    margin-left: 2px;
+}
+.notes_name
+{
+    margin-left:45px;
+   /* width:67%!important;*/
+}
+#txtoffno
+{
+    margin-left: 4px;
+}
+.upload_spn
+{
+    width: 51%;
+    margin-left: 12.4%;
+}
+.file_img
+{
+    width: 100%;
+}
+.exhibition_nm
+{
+    margin-left: 53px;
+}
+#first_div
+{
+    margin-top: 2%;
+    /*margin-bottom: 2%;*/
+}
+#products
+{
+    margin-bottom: 1%;
+}
+.lbl_top
+{
+    vertical-align:top!important;
+}
+#join_date::-webkit-inner-spin-button
+{
+        display: none;
+}
+/*set all second column field */
+#last_name,#email,#interestin,#fileupload,#designation,#offnumber
+
+{
+    margin-left:35px!important; ;
+}
+#url
+{
+    margin-left: 30px!important;
+}
+#notes
+{
+    margin-left: 24px!important;
+}
+#event
+{
+   margin-left:31px!important;
+   width: 62.6%!important;
+}
+.div_event
+{
+    width:30%!important; ;;
+}
+
+    /************Reports Page**************/
+#rptinterestin,#startdate,#enddate
+{
+        margin-right:10px!important;
+}
+#export_div
+{
+    float: right;
+}
+
+
+/***Common CSS****/
+
+    .form-group
+    {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+
+
+}
